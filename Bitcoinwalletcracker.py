@@ -8,7 +8,7 @@ from colorama import init, Fore, Style
 from mnemonic import Mnemonic
 import bip32utils
 import ecdsa
-from telegram.ext import Updater, CommandHandler
+from telegram import Updater, CommandHandler
 from dotenv import load_dotenv
 import requests
 
